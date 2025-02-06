@@ -1,6 +1,6 @@
 #Jueves 06 de febrero de 2025
 #Minería de Datos
-#Gomez Trejo Ezequiel   No. Cta = 421003866
+#Gomez Trejo Ezequiel 
 
 # 1.Verificar si un número es par o impar
 print("\n---Ej1. PAR O IMPAR---")
