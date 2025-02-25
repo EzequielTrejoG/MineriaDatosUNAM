@@ -44,13 +44,13 @@ class Producto():
         self.productos = {'Galletas': 10, 'Refrescos': 56, 'Jabón': 5, 'Cepillos': 3, 'Agua': 9, 'Jugo': 17}
         self.serieProductos = pd.Series(self.productos)
     
-    def productosMayor(self):
+    def productosMenos(self):
         filtro = self.serieProductos[self.serieProductos < 10]
         print("\n----TIENDA DE LA ESQUINA----")
         print(f"\nLos productos con menos de 10 unidades son: \n\n{filtro}\n")
 
 productos = Producto()
-productos.productosMayor()
+productos.productosMenos()
 
 # 3. Precios de productos: Genera una serie que contenga los precios de 5 productos diferentes. 
 # Luego, aplica un descuento del 15% a cada producto y muestra la serie actualizada.
