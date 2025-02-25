@@ -1,4 +1,5 @@
 #Martes 25 de Febrero de 2025
+#Gomez Trejo Ezequiel
 
 import pandas as pd
 import random
