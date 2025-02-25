@@ -38,8 +38,6 @@ temp.promedioTemperaturas()
 # 2. Inventario de productos: Crea una serie que represente el inventario de una tienda, donde el índice sea 
 # el nombre del producto y los valores sean la cantidad disponible en stock. Luego, filtra los productos 
 # que tienen menos de 10 unidades en stock.
-
-# Inventario de productos
 class Producto():
 
     def __init__(self):
