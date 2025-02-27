@@ -170,7 +170,6 @@ class Empresa:
             dia = self.dias[i]
             print(f"{dia}\t\t${self.ingresos[dia]}\t\t${self.gastos[dia]}\t\t${beneficio[dia]}")
 
-# Entrada de datos
 print("\n------EMPRESA PATITO------")
 print("\nRegistra tus ingresos: ")
 ingresos = [float(input(f"Ingreso del día {i+1}: ")) for i in range(5)]
@@ -178,7 +177,6 @@ ingresos = [float(input(f"Ingreso del día {i+1}: ")) for i in range(5)]
 print("\nRegistra tus gastos: ")
 gastos = [float(input(f"Gasto del día {i+1}: ")) for i in range(5)]
 
-# Crear la empresa y mostrar el beneficio diario
 empresa = Empresa(ingresos, gastos)
 empresa.mostrarBeneficioDiario()
 
