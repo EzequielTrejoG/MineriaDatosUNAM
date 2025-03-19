@@ -1,4 +1,5 @@
 # Miércoles 19-0-2025
+# Gomez Trejo Ezequiel
 
 import pandas as pd
 import numpy as np
